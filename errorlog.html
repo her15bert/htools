@@ -1,0 +1,680 @@
+<p>Error on Jan 14, 2015 3:09AM - array_key_exists() expects parameter 2 to be array, integer given in C:\inetpub\wwwroot\htools\app\controllers\money\money.php on line 59</p><p>Error on Jan 14, 2015 3:07AM - array_key_exists() expects parameter 2 to be array, integer given in C:\inetpub\wwwroot\htools\app\controllers\money\money.php on line 59</p><h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 14, 2015 2:55AM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[HY000] [1049] Unknown database 'htools'</p>
+
+		<p><strong>Code:</strong> 1049</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 54</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(54): PDO->__construct('mysql:host=loca...', 'root', 'herbert')
+#1 C:\inetpub\wwwroot\htools\app\core\model.php(25): helpers\Database::get()
+#2 C:\inetpub\wwwroot\htools\app\models\admin\auth.php(6): core\Model->__construct()
+#3 C:\inetpub\wwwroot\htools\app\controllers\admin\auth.php(15): models\admin\Auth->__construct()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(80): controllers\admin\Auth->__construct(NULL)
+#5 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\adm...')
+#6 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#7 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 14, 2015 2:55AM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[HY000] [1049] Unknown database 'htools'</p>
+
+		<p><strong>Code:</strong> 1049</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 54</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(54): PDO->__construct('mysql:host=loca...', 'root', 'herbert')
+#1 C:\inetpub\wwwroot\htools\app\core\model.php(25): helpers\Database::get()
+#2 C:\inetpub\wwwroot\htools\app\models\admin\auth.php(6): core\Model->__construct()
+#3 C:\inetpub\wwwroot\htools\app\controllers\admin\auth.php(15): models\admin\Auth->__construct()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(80): controllers\admin\Auth->__construct(NULL)
+#5 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\adm...')
+#6 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#7 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 03, 2015 7:16AM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parentAcount' in 'order clause'</p>
+
+		<p><strong>Code:</strong> 42S22</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\accounts.php(21): helpers\Database->select('SELECT * FROM h...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\accounts.php(14): models\money\Accounts->getAccounts()
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Accounts->index()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<p>Error on Jan 03, 2015 7:09AM - key() expects parameter 1 to be array, integer given in C:\inetpub\wwwroot\htools\app\views\money\money.php on line 22</p><h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 18:15PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.from' in 'on clause'</p>
+
+		<p><strong>Code:</strong> 42S22</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(16): helpers\Database->select('SELECT t.*, aFr...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\transactions.php(15): models\money\Transactions->getTransactions()
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Transactions->index()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 18:11PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'from,to) VALUES ('1', '231', '2015-01-02', 'sdf', '4', '5')' at line 1</p>
+
+		<p><strong>Code:</strong> 42000</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 108</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(108): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(27): helpers\Database->insert('h_transactions', Array)
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\transactions.php(58): models\money\Transactions->addTransactions(Array)
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Transactions->add()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<p>Error on Jan 02, 2015 18:06PM - require(app/views/money/transactionsEdit.php): failed to open stream: No such file or directory in C:\inetpub\wwwroot\htools\app\core\view.php on line 28</p><h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 18:02PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'path' in 'order clause'</p>
+
+		<p><strong>Code:</strong> 42S22</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(24): helpers\Database->select('SELECT aTo.id a...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\transactions.php(24): models\money\Transactions->getAccountPaths()
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Transactions->add()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 18:01PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'path' in 'order clause'</p>
+
+		<p><strong>Code:</strong> 42S22</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(24): helpers\Database->select('SELECT aTo.id, ...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\transactions.php(24): models\money\Transactions->getAccountPaths()
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Transactions->add()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 17:59PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aTo.id, CONCAT(aTo.type, ":", aTo.parentAccount, ":", aTo.name) as pathTo FROM h' at line 1</p>
+
+		<p><strong>Code:</strong> 42000</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(16): helpers\Database->select('SELECT t.*, aFr...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\transactions.php(15): models\money\Transactions->getTransactions()
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Transactions->index()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 17:58PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'aTo.id, CONCAT(aTo.type, ":", aTo.parentAccount, ":", aTo.name) as pathTo FROM h' at line 1</p>
+
+		<p><strong>Code:</strong> 42000</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(16): helpers\Database->select('SELECT t.*,  aF...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\transactions.php(15): models\money\Transactions->getTransactions()
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Transactions->index()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 17:39PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.transfer' in 'on clause'</p>
+
+		<p><strong>Code:</strong> 42S22</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(14): helpers\Database->select('SELECT t.*, a.i...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\money.php(31): models\money\Transactions->getTransactions()
+#3 C:\inetpub\wwwroot\htools\app\controllers\money\money.php(22): controllers\money\Money->getCashFlow()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Money->index()
+#5 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#6 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#7 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 17:38PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 't.transfer' in 'on clause'</p>
+
+		<p><strong>Code:</strong> 42S22</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(14): helpers\Database->select('SELECT t.*, a.i...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\money.php(31): models\money\Transactions->getTransactions()
+#3 C:\inetpub\wwwroot\htools\app\controllers\money\money.php(22): controllers\money\Money->getCashFlow()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Money->index()
+#5 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#6 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#7 {main}</pre>
+
+		<hr />
+<p>Error on Jan 02, 2015 17:36PM - require(app/templates/default/header.php): failed to open stream: No such file or directory in C:\inetpub\wwwroot\htools\app\core\view.php on line 42</p><h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 17:08PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[HY093]: Invalid parameter number: parameter was not defined</p>
+
+		<p><strong>Code:</strong> HY093</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 150</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(150): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\admin\users.php(20): helpers\Database->update('h_members', Array, Array)
+#2 C:\inetpub\wwwroot\htools\app\controllers\admin\users.php(88): models\admin\Users->updateUser(Array, Array)
+#3 [internal function]: controllers\admin\Users->edit('1')
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(90): call_user_func_array(Array, Array)
+#5 C:\inetpub\wwwroot\htools\app\core\router.php(236): core\Router::invokeObject('controllers\\adm...', Array)
+#6 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#7 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 17:08PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[HY093]: Invalid parameter number: parameter was not defined</p>
+
+		<p><strong>Code:</strong> HY093</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 150</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(150): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\admin\users.php(20): helpers\Database->update('h_members', Array, Array)
+#2 C:\inetpub\wwwroot\htools\app\controllers\admin\users.php(88): models\admin\Users->updateUser(Array, Array)
+#3 [internal function]: controllers\admin\Users->edit('1')
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(90): call_user_func_array(Array, Array)
+#5 C:\inetpub\wwwroot\htools\app\core\router.php(236): core\Router::invokeObject('controllers\\adm...', Array)
+#6 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#7 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 17:08PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[HY093]: Invalid parameter number: parameter was not defined</p>
+
+		<p><strong>Code:</strong> HY093</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 150</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(150): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\admin\users.php(20): helpers\Database->update('h_members', Array, Array)
+#2 C:\inetpub\wwwroot\htools\app\controllers\admin\users.php(88): models\admin\Users->updateUser(Array, Array)
+#3 [internal function]: controllers\admin\Users->edit('1')
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(90): call_user_func_array(Array, Array)
+#5 C:\inetpub\wwwroot\htools\app\core\router.php(236): core\Router::invokeObject('controllers\\adm...', Array)
+#6 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#7 {main}</pre>
+
+		<hr />
+<p>Error on Jan 02, 2015 17:08PM - Missing argument 2 for models\admin\Users::updateUser(), called in C:\inetpub\wwwroot\htools\app\controllers\admin\users.php on line 88 and defined in C:\inetpub\wwwroot\htools\app\models\admin\users.php on line 19</p><h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 16:47PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'htools.accounts' doesn't exist</p>
+
+		<p><strong>Code:</strong> 42S02</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(14): helpers\Database->select('SELECT t.*, a.i...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\money.php(31): models\money\Transactions->getTransactions()
+#3 C:\inetpub\wwwroot\htools\app\controllers\money\money.php(22): controllers\money\Money->getCashFlow()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Money->index()
+#5 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#6 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#7 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 16:46PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM h_transactions AS t LEFT JOIN accounts AS a ON t.transfer=a.id ORDER BY t.t' at line 1</p>
+
+		<p><strong>Code:</strong> 42000</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(14): helpers\Database->select('SELECT t.*, a.i...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\money.php(31): models\money\Transactions->getTransactions()
+#3 C:\inetpub\wwwroot\htools\app\controllers\money\money.php(22): controllers\money\Money->getCashFlow()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Money->index()
+#5 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#6 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#7 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 16:45PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM h_transactions AS t LEFT JOIN accounts AS a ON t.transfer=a.id ORDER BY tra' at line 1</p>
+
+		<p><strong>Code:</strong> 42000</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(14): helpers\Database->select('SELECT t.*, a.i...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\money.php(31): models\money\Transactions->getTransactions()
+#3 C:\inetpub\wwwroot\htools\app\controllers\money\money.php(22): controllers\money\Money->getCashFlow()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Money->index()
+#5 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#6 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#7 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 16:44PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM h_transactions AS t LEFT JOIN accounts AS a ON t.transfer=a.id ORDER BY tra' at line 1</p>
+
+		<p><strong>Code:</strong> 42000</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(14): helpers\Database->select('SELECT t.*, id,...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\money.php(31): models\money\Transactions->getTransactions()
+#3 C:\inetpub\wwwroot\htools\app\controllers\money\money.php(22): controllers\money\Money->getCashFlow()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Money->index()
+#5 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#6 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#7 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 16:44PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM h_transactions AS t LEFT JOIN accounts AS a ON t.transfer=a.id ORDER BY tra' at line 1</p>
+
+		<p><strong>Code:</strong> 42000</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(14): helpers\Database->select('SELECT t.*, id,...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\transactions.php(15): models\money\Transactions->getTransactions()
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Transactions->index()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 16:44PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM h_transactions AS t LEFT JOIN accounts AS a ON t.transfer=a.id ORDER BY tra' at line 1</p>
+
+		<p><strong>Code:</strong> 42000</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(14): helpers\Database->select('SELECT t.*, id,...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\money.php(31): models\money\Transactions->getTransactions()
+#3 C:\inetpub\wwwroot\htools\app\controllers\money\money.php(22): controllers\money\Money->getCashFlow()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Money->index()
+#5 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#6 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#7 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 16:44PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM h_transactions AS t LEFT JOIN accounts AS a ON t.transfer=a.id ORDER BY tra' at line 1</p>
+
+		<p><strong>Code:</strong> 42000</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(14): helpers\Database->select('SELECT t.*, id,...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\transactions.php(15): models\money\Transactions->getTransactions()
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Transactions->index()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 02, 2015 16:42PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM h_transactions AS t LEFT JOIN accounts AS a ORDER BY transfer' at line 1</p>
+
+		<p><strong>Code:</strong> 42000</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 86</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(86): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(13): helpers\Database->select('SELECT t.*, id,...')
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\transactions.php(15): models\money\Transactions->getTransactions()
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Transactions->index()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<p>Error on Jan 02, 2015 16:04PM - call_user_func_array() expects parameter 1 to be a valid callback, class 'controllers\money\Transactions' does not have a method 'edit' in C:\inetpub\wwwroot\htools\app\core\router.php on line 90</p><p>Error on Jan 01, 2015 19:42PM - require(app/views/admin/usersAdd.php): failed to open stream: No such file or directory in C:\inetpub\wwwroot\htools\app\core\view.php on line 28</p><p>Error on Jan 01, 2015 19:42PM - require(app/views/admin/usersAdd.php): failed to open stream: No such file or directory in C:\inetpub\wwwroot\htools\app\core\view.php on line 28</p><p>Error on Jan 01, 2015 18:40PM - call_user_func_array() expects parameter 1 to be a valid callback, class 'controllers\money\Transactions' does not have a method 'delete' in C:\inetpub\wwwroot\htools\app\core\router.php on line 90</p><h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 01, 2015 18:28PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'date' at row 1</p>
+
+		<p><strong>Code:</strong> 22007</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 108</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(108): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(18): helpers\Database->insert('h_transactions', Array)
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\transactions.php(53): models\money\Transactions->addTransactions(Array)
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Transactions->add()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 01, 2015 18:25PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'date' at row 1</p>
+
+		<p><strong>Code:</strong> 22007</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 108</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(108): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(18): helpers\Database->insert('h_transactions', Array)
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\transactions.php(55): models\money\Transactions->addTransactions(Array)
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Transactions->add()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 01, 2015 18:23PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'date' at row 1</p>
+
+		<p><strong>Code:</strong> 22007</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 108</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(108): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(18): helpers\Database->insert('h_transactions', Array)
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\transactions.php(53): models\money\Transactions->addTransactions(Array)
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Transactions->add()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 01, 2015 18:22PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect date value: '' for column 'date' at row 1</p>
+
+		<p><strong>Code:</strong> 22007</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 108</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(108): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(18): helpers\Database->insert('h_transactions', Array)
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\transactions.php(53): models\money\Transactions->addTransactions(Array)
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Transactions->add()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 01, 2015 18:21PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '' for column 'date' at row 1</p>
+
+		<p><strong>Code:</strong> 22007</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 108</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(108): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\transactions.php(18): helpers\Database->insert('h_transactions', Array)
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\transactions.php(53): models\money\Transactions->addTransactions(Array)
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Transactions->add()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(99): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<p>Error on Jan 01, 2015 16:21PM - Missing argument 1 for controllers\admin\Users::edit(), called in C:\inetpub\wwwroot\htools\app\core\router.php on line 85 and defined in C:\inetpub\wwwroot\htools\app\controllers\admin\users.php on line 62</p><p>Error on Jan 01, 2015 16:21PM - Missing argument 1 for controllers\admin\Users::edit(), called in C:\inetpub\wwwroot\htools\app\core\router.php on line 85 and defined in C:\inetpub\wwwroot\htools\app\controllers\admin\users.php on line 62</p><p>Error on Jan 01, 2015 16:17PM - require(app/templates/default/header.php): failed to open stream: No such file or directory in C:\inetpub\wwwroot\htools\app\core\view.php on line 42</p><h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 01, 2015 15:59PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'accountName' in 'field list'</p>
+
+		<p><strong>Code:</strong> 42S22</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 108</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(108): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\accounts.php(18): helpers\Database->insert('h_accounts', Array)
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\accounts.php(46): models\money\Accounts->addAccount(Array)
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Accounts->add()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(92): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<p>Error on Jan 01, 2015 15:59PM - require(app/templates/default/header.php): failed to open stream: No such file or directory in C:\inetpub\wwwroot\htools\app\core\view.php on line 42</p><h3>Exception information:</h3>
+
+		<p><strong>Date:</strong> Jan 01, 2015 15:58PM</p>
+
+		<p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'accountName' in 'field list'</p>
+
+		<p><strong>Code:</strong> 42S22</p>
+
+		<p><strong>File:</strong> C:\inetpub\wwwroot\htools\app\helpers\database.php</p>
+
+		<p><strong>Line:</strong> 108</p>
+
+		<h3>Stack trace:</h3>
+
+		<pre>#0 C:\inetpub\wwwroot\htools\app\helpers\database.php(108): PDOStatement->execute()
+#1 C:\inetpub\wwwroot\htools\app\models\money\accounts.php(18): helpers\Database->insert('h_accounts', Array)
+#2 C:\inetpub\wwwroot\htools\app\controllers\money\accounts.php(46): models\money\Accounts->addAccount(Array)
+#3 C:\inetpub\wwwroot\htools\app\core\router.php(85): controllers\money\Accounts->add()
+#4 C:\inetpub\wwwroot\htools\app\core\router.php(196): core\Router::invokeObject('controllers\\mon...')
+#5 C:\inetpub\wwwroot\htools\index.php(92): core\Router::dispatch()
+#6 {main}</pre>
+
+		<hr />
+<p>Error on Dec 31, 2014 10:00AM - require(app/views/money/accounts.php): failed to open stream: No such file or directory in C:\inetpub\wwwroot\htools\app\core\view.php on line 28</p><p>Error on Dec 31, 2014 10:00AM - require(app/views/money/accounts.php): failed to open stream: No such file or directory in C:\inetpub\wwwroot\htools\app\core\view.php on line 28</p>
